@@ -1,0 +1,145 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* HEADER */
+#header {
+    padding-top: 206px;
+    padding-left: 62px;
+    background: #303030;
+    height: 300px;
+    color: white;
+}
+
+#header h1 {
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 60px;
+    letter-spacing: -0.025em;
+}
+
+#header h4 {
+    padding-top: 20px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+}
+
+/* SECTION */
+#results {
+    display: flex;
+    justify-content: space-evenly;
+    background: #F9F9F9;
+    padding-top: 96px;
+    padding-bottom: 66px;
+}
+
+#results p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: 20px;
+    color: #000000;
+}
+
+#results p strong {
+    font-size: 40px;
+}
+
+#about {
+    display: flex;
+}
+
+#left-side {
+    width: 60%;
+    padding-top: 260px;
+    padding-left: 77px;
+}
+
+#left-side h2 {
+    font-family: 'Inter';
+    font-size: 40px;
+    font-weight: 500;
+    padding-bottom: 45px;
+}
+
+#left-side p {
+    width: 85%;
+    font-family: 'Inter';
+    font-size: 23px;
+    font-weight: 300;
+    line-height: 30px;
+}
+
+#right-side {
+    padding-right: 84px;
+    padding-top: 82px;
+    padding-bottom: 92px;
+}
+
+/* FORM */
+#footer {
+    background: #303030;
+    height: 638px;
+    text-align: center;
+    padding-top: 87px;
+}
+
+#footer h1 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 150%;
+    color: #FFFFFF;
+    padding-bottom: 48px;
+}
+
+#form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#form .input {
+    width: 508px;
+    height: 72px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    margin-bottom: 62px;
+    border: 0;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    padding-left: 30px;
+    display: flex;
+    align-items: center;
+    color: rgba(0, 0, 0, 0.3);
+}
+
+#form button {
+    width: 286px;
+    height: 74px;
+    background: #C07212;
+    border-radius: 10px;
+    border: 0;
+    margin-top: 26px;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+    cursor: pointer;
+}
